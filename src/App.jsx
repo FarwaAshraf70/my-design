@@ -22,7 +22,7 @@ const App = () => {
         <Route path='/bundletarget' element={<BundleTarget/>} />
         <Route path='/method' element={<Method/>} />
         <Route path='/reset' element={<ResetPassword/>}/>
-        <Route path='/loginform' element={<Login/>}/>
+        <Route path='/' element={<Login/>}/>
       </Routes>
       <Footer/>
       
