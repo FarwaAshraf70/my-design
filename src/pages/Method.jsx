@@ -151,7 +151,6 @@ const Method = () => {
                   onChange={handleCheckBox}
                   checked={checkOffer}
                 />
-
                 <label className="fw-bold">
                   Create offer on a copy of the selected product(optional)
                 </label>

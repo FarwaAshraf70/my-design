@@ -98,7 +98,6 @@ setActiveStep(1)
                   color: "rgba(48,48,48,1)",
                   lineHeight: "15px",
                   color: activeStep === 3 ? "white" : "rgba(48,48,48,1)",
-
                 }}
               >
                 3
@@ -137,6 +136,7 @@ setActiveStep(1)
               onChange={handleBundle}
             />
             <label className="fw-bold mx-3">Bundle By Variant</label>
+            <p>The variant of the products will act as bundles.Learn more about the variant sysytem.</p>
             <p>The variant of the products will act as bundles.Learn more about the variant sysytem.</p>
           </div> 
         </div>
